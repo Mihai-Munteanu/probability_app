@@ -71,7 +71,9 @@ export default function ChildModal({ childToParent }) {
      }
 
      function errorMessage() {
-          return alert("You cannot say no");
+          return alert(
+               "If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did to Obi-Wan's apprentice."
+          );
      }
 
      return (
@@ -91,7 +93,7 @@ export default function ChildModal({ childToParent }) {
                               <div>
                                    <h2 id="child-modal-title">Sure you are?</h2>
                                    <p id="child-modal-description">
-                                        Last chance...
+                                        Last chance you have...
                                    </p>
                               </div>
                               <div className="arrangeButtons">

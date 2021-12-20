@@ -4,7 +4,6 @@ import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import ChildModal from "./ChildModal";
-import { Alert } from "@mui/material";
 
 const style = {
      position: "absolute",
@@ -76,6 +75,14 @@ export default function ParentModal({ showMessage }) {
           return showMessage();
      };
 
+     function handleCloseParentModal() {
+          setOpen(false);
+
+          return alert(
+               "I know what you did. You broke my heart. You broke my heart!"
+          );
+     }
+
      return (
           <div>
                <StartButton onClick={handleOpen}>Start</StartButton>
@@ -96,7 +103,9 @@ export default function ParentModal({ showMessage }) {
                                    </p>
                               </div>
                               <div className="arrangeButtons">
-                                   <StartButton onClick={handleClose}>
+                                   <StartButton
+                                        onClick={handleCloseParentModal}
+                                   >
                                         No
                                    </StartButton>
                                    <ChildModal childToParent={childToParent} />
