@@ -131,3 +131,51 @@
      display: flex;
      justify-content: center;
 }
+
+.godFatherSVG {
+     font-size: 0.75rem;
+     line-height: 1rem;
+     color: rgb(51 65 85);
+}
+
+.GodFatherImage {
+     background-image: url(./godfatherimage.jpeg);
+}
+
+.proposal {
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.proposalMessage {
+     max-width: 100;
+     margin-right: 20px;
+}
+
+.proposalImage {
+     margin-left: 20px;
+}
+
+.belowText {
+     width: 50%;
+     display: flex;
+     font-size: 0.875rem;
+     line-height: 1.25rem;
+     font-style: italic;
+     text-align: left;
+     color: rgb(254 202 202);
+}
+
+.arrangeButtons {
+     display: flex;
+     justify-content: space-around;
+}
+
+.modalContainer {
+     display: flex;
+     flex-direction: column;
+     height: inherit;
+     justify-content: space-around;
+}
