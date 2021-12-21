@@ -41,7 +41,7 @@ function App() {
                <header className="App-header">
                     {!message && <h2>It's a trap</h2>}
                </header>
-               <body className="App-body">
+               <div className="App-body">
                     {message ? (
                          <>
                               <div className="proposal">
@@ -145,7 +145,7 @@ function App() {
                               </div>
                          </>
                     )}
-               </body>
+               </div>
           </div>
      );
 }
