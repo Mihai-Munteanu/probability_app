@@ -3,7 +3,6 @@ import "./App.css";
 import React, { useRef, useState } from "react";
 import useLocalStorage from "./hooks/useLocalStorage";
 import { CSSTransition } from "react-transition-group";
-import Modal from "./Components/Modal";
 import ParentModal from "./Components/ParentModal";
 import GodFatherImage from "./godfatherimage.jpeg";
 import GodFatherFirstPageImage from "./godfatherfirstpageimage.jpeg";
@@ -32,7 +31,7 @@ function App() {
                     We make you an offer that you cannot refuse.
                     <br />
                     <br />
-                    Would you like to be our GodParents?
+                    We would like you to be our GodParents
                </div>
           );
      };
